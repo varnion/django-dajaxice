@@ -10,6 +10,7 @@ env:
 
 install:
   - pip install $DJANGO
+  - pip install coverage
 
 
 branches:
@@ -17,4 +18,4 @@ branches:
     - master
 
 script:
-  - python dajaxice/tests/runtests.py
+  - coverage run dajaxice/tests/runtests.py
