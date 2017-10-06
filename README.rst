@@ -1,11 +1,11 @@
-django-dajaxice-ng
-==================
+django-dajaxice
+===============
 
 .. image:: https://badge.fury.io/py/django-dajaxice-ng.png
     :target: http://badge.fury.io/py/django-dajaxice-ng
 
-.. image:: https://travis-ci.org/ifanrx/django-dajaxice.png?branch=master
-    :target: https://travis-ci.org/ifanrx/django-dajaxice
+.. image:: https://travis-ci.org/varnion/django-dajaxice.png?branch=master
+    :target: https://travis-ci.org/varnion/django-dajaxice
 
 This is the next generation of dajaxice_ maintained by ifanrx_.
 
