@@ -68,11 +68,7 @@ class DajaxiceStorage(VirtualStorage):
 
         dajaxice_autodiscover()
 
-        #older versions of django require Context
-        if get_version() < '1.9':
-            c = Context({'dajaxice_config': dajaxice_config})
-        else:
-            c = {'dajaxice_config': dajaxice_config}
+        c = {'dajaxice_config': dajaxice_config}
 
         return get_template(os.path.join('dajaxice', 'dajaxice.core.js')).render(c)
 
